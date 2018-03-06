@@ -1,0 +1,17 @@
+<!--<p>-->
+  <!--user-list-view works!-->
+<!--</p>-->
+<div id="content">
+  <div id="users">
+    <br>
+    <h3> Users</h3>
+    <ul>
+      <li *ngFor="let client of clients">
+        <a href="#{{client.id}}">{{client.mail}}</a>
+    <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+    <!--&lt;!&ndash;<input type="text" name="userName" placeholder="add a new user" [(ngModel)]="createdUser.name">&ndash;&gt;-->
+    <!--<button (click)="createUser()" [disabled]="createdUser.name?.length<2"> Add!</button>-->
+      </li>
+    </ul>
+  </div>
+</div>
